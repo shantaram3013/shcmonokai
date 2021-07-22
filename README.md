@@ -1,6 +1,6 @@
 # Shan's High Contrast Monokai Theme
 
-A heavily customized, high-moderate contrast Monokai theme. Optimised for red-green color-weak users.
+A heavily customized, moderate-high contrast Monokai theme. Optimised for red-green color-weak users.
 
 ### Screenshots:
 JavaScript:
