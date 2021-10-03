@@ -672,6 +672,24 @@
 		},
 		{
 			"scope": [
+				"constant.character.escape"
+			],
+			"settings": {
+				"foreground": "#bf23fe",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
+				"constant.other.placeholder"
+			],
+			"settings": {
+				"foreground": "#bf23fe",
+				"fontStyle": ""
+			}
+		},
+		{
+			"scope": [
 				"constant.language"
 			],
 			"settings": {
@@ -971,28 +989,89 @@
 			}
 		},
 		{
-			"scope": "markup.heading.markdown",
+			"scope": "string.other.link.title.markdown,string.other.link.description.markdown",
 			"settings": {
-				"fontStyle": "bold"
+				"foreground": "#AE81FF"
 			}
 		},
 		{
-			"scope": "markup.quote.markdown",
+			"name": "Markup emphasis",
+			"scope": "markup.italic, markup.italic.markdown",
 			"settings": {
-				"fontStyle": "italic",
+				"fontStyle": "italic"
 			}
 		},
 		{
+			"name": "Markup punctuation",
+			"scope": [
+				"punctuation.definition.italic.markdown",
+				"punctuation.definition.bold.markdown",
+				"punctuation.definition.heading.markdown"
+			],
+			"settings": {
+				"foreground": "#676f7d"
+			}
+		},
+		{
+			"name": "Markup emphasis Punctuation",
+			"scope": "punctuation.definition.italic.markdown",
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Markdown link",
+			"scope": "markup.underline.link.markdown",
+			"settings": {
+			}
+		},
+		{
+			"name": "Markdown bold",
 			"scope": "markup.bold.markdown",
 			"settings": {
 				"fontStyle": "bold"
 			}
 		},
 		{
-			"scope": "string.other.link.title.markdown,string.other.link.description.markdown",
+			"name": "Markdown heading",
+			"scope": "markup.heading.markdown",
 			"settings": {
-				"foreground": "#AE81FF"
+				"fontStyle": "bold",
+				"foreground": "#e06c75"
 			}
 		},
+		{
+			"name": "Markdown quote",
+			"scope": "markup.quote.markdown",
+			"settings": {
+				"foreground": "#98c379"
+			}
+		},
+		{
+			"name": "Markdown separator",
+			"scope": "meta.separator.markdown",
+			"settings": {
+				"foreground": "#c678dd",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Markdown raw",
+			"scope": [
+				"markup.raw.inline.markdown",
+				"markup.raw.block.markdown"
+			],
+			"settings": {
+				"foreground": "#56b6c2"
+			}
+		},
+		{
+			"name": "Markdown list punctuation",
+			"scope": "punctuation.definition.list_item.markdown",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#303030"
+			}
+		}
 	]
 }

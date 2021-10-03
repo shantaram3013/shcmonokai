@@ -2,9 +2,9 @@
     "name": "shcmonokai",
     "displayName": "Shan's High Contrast Monokai",
     "description": "A heavily customized, high-moderate contrast Monokai theme. Optimised for red-green color-weak users, such as myself.",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "repository": {
-        "url": "https://github.com/shantaram3013/shcmonokai"
+        "url": "https://github.com/xyzshantaram/shcmonokai"
     },
     "engines": {
         "vscode": "^1.58.0"
